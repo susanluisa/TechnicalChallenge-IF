@@ -1,21 +1,15 @@
+import { React } from 'react';
 import './App.css';
+
 import Header from "./components/Header";
 import TrelloClient from "react-trello-client";
 
-
 function App() {
 
-const fetchBoard = async () => {
-  const data = await fetch(`https://api.trello.com/1/actions/{id}/board?key=0471642aefef5fa1fa76530ce1ba4c85&token=9eb76d9a9d02b8dd40c2f3e5df18556c831d4d1fadbe2c45f8310e6c93b5c548`);
-  console.log("data",data);
-}
-
-fetchBoard();
   return (
     <div className="App">
-      nuevo
       <Header />
-      <TrelloClient
+      {/* <TrelloClient
             apiKey="2d6549ffae8065bc4354b8abcb14a28e" // Get the API key from https://trello.com/app-key/
             clientVersion={1} // number: {1}, {2}, {3}
             apiEndpoint="https://api.trello.com" // string: "https://api.trello.com"
@@ -36,7 +30,7 @@ fetchBoard();
             buttonStyle="metamorph" // string: "metamorph" | "flat"
             buttonColor="green" // string: "green" | "grayish-blue" | "light"
             buttonText="Login with Trello" // string: "Login with Trello"
-        />
+        /> */}
     </div>
   );
 }

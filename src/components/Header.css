@@ -1,0 +1,34 @@
+.main__header {
+  background-color: #4D2DD9;
+  height: 54px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.icon-bar {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  margin-left: 10px;
+  margin-bottom: 3px;
+}
+
+.icon-bar__small {
+  width: 6.6px;
+  height: 24.8px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.icon-bar__long {
+  height: 29.7px;
+}
+
+.icon__circle {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  margin-right: 15px;
+}

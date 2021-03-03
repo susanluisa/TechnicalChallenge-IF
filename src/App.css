@@ -1,3 +1,12 @@
 .App {
   text-align: center;
+  /* background-color: #4D2DD9;
+  width: auto;
+  height: 100vh; */
+}
+
+.content {
+  background-color: #4D2DD9;
+  width: auto;
+  height: 100vh;
 }
