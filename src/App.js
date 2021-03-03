@@ -1,7 +1,7 @@
 import { React } from 'react';
-import './App.css';
-
+import Main from './components/Main';
 import Header from "./components/Header";
+import './App.css';
 import TrelloClient from "react-trello-client";
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Main />
       {/* <TrelloClient
             apiKey="2d6549ffae8065bc4354b8abcb14a28e" // Get the API key from https://trello.com/app-key/
             clientVersion={1} // number: {1}, {2}, {3}
